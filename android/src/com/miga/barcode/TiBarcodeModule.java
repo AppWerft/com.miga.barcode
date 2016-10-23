@@ -55,7 +55,7 @@ public class TiBarcodeModule extends KrollModule
 
 	// Methods
 	@Kroll.method
-	public void example()
+	public void showCamera()
 	{
 		BarcodeDetector barcodeDetector = new BarcodeDetector.Builder(appContext).build();
 		BarcodeTrackerFactory barcodeFactory = new BarcodeTrackerFactory();
